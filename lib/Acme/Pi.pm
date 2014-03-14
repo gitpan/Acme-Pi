@@ -4,7 +4,7 @@ package Acme::Pi;
 BEGIN {
   $Acme::Pi::AUTHORITY = 'cpan:ETHER';
 }
-# git description: f49ede4
+# git description: v3-2-g3d976d7
 
 # ABSTRACT: Mmm, pie
 # vim: set ts=8 sw=4 tw=78 et :
@@ -29,7 +29,7 @@ Acme::Pi - Mmm, pie
 
 =head1 VERSION
 
-version 3
+version 3.1
 
 =head1 SYNOPSIS
 
@@ -63,7 +63,19 @@ the number L<pi|http://en.wikipedia.org/wiki/Pi>.
 
 =item *
 
-L<David Golden on bad $VERSIONs|http://www.dagolden.com/index.php/2191/real-versions-on-cpan/>
+L<David Golden: Real $VERSIONs on CPAN|http://www.dagolden.com/index.php/2191/real-versions-on-cpan/>
+
+=item *
+
+L<David Golden: version numbers should be boring|http://www.dagolden.com/index.php/369/version-numbers-should-be-boring/>
+
+=item *
+
+L<Dinosaur comics on Pi Day|http://www.qwantz.com/index.php?comic=955>
+
+=item *
+
+L<Usage of pi in TeX versions|http://en.wikipedia.org/wiki/TeX#History>
 
 =back
 

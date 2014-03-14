@@ -5,7 +5,10 @@
    ],
    "dynamic_config" : 0,
    "generated_by" : "Dist::Zilla version 5.013, CPAN::Meta::Converter version 2.140640",
-   "keywords" : [],
+   "keywords" : [
+      "pi",
+      "Ï"
+   ],
    "license" : [
       "perl_5"
    ],
@@ -94,7 +97,7 @@
          "web" : "https://github.com/karenetheridge/Acme-Pi"
       }
    },
-   "version" : "3",
+   "version" : "3.1",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.019009"
@@ -599,7 +602,7 @@
          {
             "class" : "Dist::Zilla::Plugin::Keywords",
             "name" : "Keywords",
-            "version" : "0.002"
+            "version" : "0.003"
          },
          {
             "class" : "Dist::Zilla::Plugin::Prereqs",
