@@ -4,7 +4,7 @@ package Acme::Pi;
 BEGIN {
   $Acme::Pi::AUTHORITY = 'cpan:ETHER';
 }
-# git description: v3-2-g3d976d7
+# git description: v3.1-10-g4f34aed
 
 # ABSTRACT: Mmm, pie
 # vim: set ts=8 sw=4 tw=78 et :
@@ -21,21 +21,18 @@ __END__
 
 =encoding UTF-8
 
-=for :stopwords Karen Etheridge Mmm irc QA Hackathon
-
 =head1 NAME
 
 Acme::Pi - Mmm, pie
 
 =head1 VERSION
 
-version 3.1
+version 3.14159265358979
 
 =head1 SYNOPSIS
 
     use Acme::Pi;
-
-    ...that's it, really
+    my $pi = Acme::Pi->VERSION;
 
 =head1 DESCRIPTION
 
@@ -43,9 +40,11 @@ This distribution was created to celebrate L<Pi Day|http://www.piday.org/>,
 as well as to demonstrate yet another example of a pathological C<$VERSION>.
 It defines its version as:
 
-    $Acme::Pi::VERSION = atan2(1,1) * 4;
+    atan2(1,1) * 4;
 
 =head1 SUPPORT
+
+=for stopwords irc
 
 Bugs may be submitted through L<the RT bug tracker|https://rt.cpan.org/Public/Dist/Display.html?Name=Acme-Pi>
 (or L<bug-Acme-Pi@rt.cpan.org|mailto:bug-Acme-Pi@rt.cpan.org>).
@@ -53,9 +52,11 @@ I am also usually active on irc, as 'ether' at C<irc.perl.org>.
 
 =head1 ACKNOWLEDGEMENTS
 
+=for stopwords QA Hackathon
+
 This module was brought to you by the
 L<2014 QA Hackathon in Lyon|http://act.qa-hackathon.org/qa2014>, as well as
-the number L<pi|http://en.wikipedia.org/wiki/Pi>.
+the number L<π|http://en.wikipedia.org/wiki/Pi>.
 
 =head1 SEE ALSO
 
